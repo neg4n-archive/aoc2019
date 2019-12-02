@@ -1,0 +1,17 @@
+---
+BasedOnStyle: LLVM
+Language: Cpp
+NamespaceIndentation: All
+PointerAlignment: Left
+SortIncludes: 'true'
+ColumnLimit: '140'
+Cpp11BracedListStyle: 'false'
+SpaceAfterTemplateKeyword: 'true'
+SpaceBeforeCpp11BracedList: 'false'
+SpaceInEmptyParentheses: 'false'
+SpacesBeforeTrailingComments: '1'
+SpacesInAngles: 'false'
+SpacesInParentheses: 'false'
+SpacesInSquareBrackets: 'true'
+TabWidth: '3'
+UseTab: Never
