@@ -82,14 +82,14 @@ int total_true_fuel_needed(const std::vector<int>& mass_list) noexcept {
 /**
  * Entry point of day 1 challenge.
  */
-int main() {
+int main(int argc, char** argv) {
   // Stream is being closed automatically when fstream destructor is called.
-  std::fstream day1_input(std::filesystem::current_path().string().append("/input/day1.input"));
+  std::fstream day1_input(std::filesystem::current_path().string().append(argv[1]));
   std::istream_iterator<int> start(day1_input), end;
   std::vector<int> mass_list(start, end);
 
   std::cout << "total fuel needed: " << total_fuel_needed(mass_list) << std::endl;
-  std::cout << "total true fuel needed: " << total_true_fuel_needed(mass_list) << std::endl;
+  std::cout << "total true fuel needed: " << total_true_fuel_needed(mass_list) << std::endl << std::endl;
 
   return EXIT_SUCCESS;
 }
