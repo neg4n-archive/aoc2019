@@ -1,0 +1,22 @@
+*        *       *    *  ()   *   *
+    *         *        * /\         *
+          *         *   /i\\    *  *
+Advent Of Code    *     o/\\  *      *
+    :year(2019)        ///\i\    *
+ *         *       *   /*/o\\  *    *
+       *         *    /i//\*\      *
+*          *          /o/*\\i\   *
+   *    *       *    *   ||     *  *
+
+                                                               
+
+zxv77 (Igor Klepacki) [https://github.com/zxv77]
+attempt to solve https://adventofcode.com/2019 problems
+in C++ language with standard of C++17.
+
+                                                                
+
+To run specified solution, simply execute builder script
+$ ./builder.sh
+then navigate between problems using up/down arrow keys
+and select the problem by pressing enter.
