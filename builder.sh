@@ -81,12 +81,19 @@ echo
 echo "Select one option using up/down keys and enter to confirm:"
 echo
 
-options=("Day 1: The Tyranny of the Rocket Equation")
+options=(
+    "Day 1: The Tyranny of the Rocket Equation"
+    "Day 2: 1202 Program Alarm"
+)
 
 case $(select_opt "${options[@]}") in
 0)
     g++ src/day1/main.cpp -std=c++17 -o ./build/day1_solution &&
         cd ./build/ && ./day1_solution /../input/day1.input
+    ;;
+1)
+    g++ src/day2/main.cpp -std=c++17 -o ./build/day2_solution &&
+        cd ./build/ && ./day2_solution /../input/day2.input
     ;;
 *)
     exit 0
